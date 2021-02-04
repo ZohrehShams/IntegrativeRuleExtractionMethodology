@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14c827c4-4cd9-4371-8914-1cb3b5871227" name="Default Changelist" comment="statistical analysis on rules added plus function for explanation of predictions">
+      <change beforePath="$PROJECT_DIR$/code/.idea/DNN-RE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/code/.idea/DNN-RE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/code/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/configurations.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/configurations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/dnn_re.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/dnn_re.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/evaluate_rules/baseline.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/evaluate_rules/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/evaluate_rules/evaluate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/evaluate_rules/overlapping_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/evaluate_rules/overlapping_features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/evaluate_rules/overlapping_rules.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/evaluate_rules/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/evaluate_rules/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/extract_rules/deep_red_C5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/extract_rules/modified_deep_red_C5.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/extract_rules/modified_deep_red_C5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/extract_rules/pedagogical_true_labels.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/extract_rules/pedagogical_true_labels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/model/generation/generate_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/model/generation/generate_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/model/generation/helpers/build_and_train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/model/generation/helpers/build_and_train_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/model/generation/helpers/find_best_nn_initialisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/model/generation/helpers/find_best_nn_initialisation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/model/generation/helpers/grid_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/model/generation/helpers/grid_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/model/generation/helpers/split_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/model/generation/helpers/split_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/model/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/model/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/rule_ranking/rank_rules.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/rule_ranking/rank_rules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/rules/C5.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/rules/C5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/rules/clause.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/rules/clause.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/rules/rule.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/rules/rule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/rules/ruleset.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/rules/ruleset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/rules/term.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/rules/term.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/test/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/test/test_conjunctiveClause.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/test/test_rule.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/data_split_indices.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_0.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_1.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_2.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_3.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_4.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_5.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_6.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_7.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_8.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_9.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/trained_models/fold_0_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/trained_models/fold_1_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/trained_models/fold_2_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/trained_models/fold_3_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/trained_models/fold_4_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/trained_models/fold_5_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/trained_models/fold_6_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/trained_models/fold_7_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/trained_models/fold_8_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/cross_validation/10_folds/trained_models/fold_9_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/neural_network_initialisation/best_initialisation.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/neural_network_initialisation/data_split_indices.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/neural_network_initialisation/grid_search_results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-1/neural_network_initialisation/re_results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/data_split_indices.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_0.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_1.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_2.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_3.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_4.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_5.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_6.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_7.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_8.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_9.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/trained_models/fold_0_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/trained_models/fold_1_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/trained_models/fold_2_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/trained_models/fold_3_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/trained_models/fold_4_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/trained_models/fold_5_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/trained_models/fold_6_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/trained_models/fold_7_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/trained_models/fold_8_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/cross_validation/10_folds/trained_models/fold_9_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/neural_network_initialisation/best_initialisation.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/neural_network_initialisation/data_split_indices.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/neural_network_initialisation/grid_search_results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Artif-2/neural_network_initialisation/re_results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/data_split_indices.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_0.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_1.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_2.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_3.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_4.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_5.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_6.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_7.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_8.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_9.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/trained_models/fold_0_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/trained_models/fold_1_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/trained_models/fold_2_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/trained_models/fold_3_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/trained_models/fold_4_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/trained_models/fold_5_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/trained_models/fold_6_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/trained_models/fold_7_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/trained_models/fold_8_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/cross_validation/10_folds/trained_models/fold_9_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/neural_network_initialisation/best_initialisation.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/neural_network_initialisation/data_split_indices.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/neural_network_initialisation/grid_search_results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BreastCancer/neural_network_initialisation/re_results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/LetterRecognition/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/LetterRecognition/neural_network_initialisation/grid_search_results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/data_split_indices.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_0.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_1.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_2.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_3.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_4.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_5.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_6.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_7.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_8.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/rule_extraction/MOD_DeepRED_C5/rules_extracted/fold_9.rules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/trained_models/fold_0_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/trained_models/fold_1_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/trained_models/fold_2_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/trained_models/fold_3_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/trained_models/fold_4_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/trained_models/fold_5_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/trained_models/fold_6_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/trained_models/fold_7_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/trained_models/fold_8_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/cross_validation/10_folds/trained_models/fold_9_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/MB-GE-ER/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/neural_network_initialisation/best_initialisation.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/neural_network_initialisation/data_split_indices.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/MB-GE-ER/neural_network_initialisation/data_split_indices.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/neural_network_initialisation/grid_search_results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/MB-GE-ER/neural_network_initialisation/grid_search_results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MB-GE-ER/neural_network_initialisation/re_results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MNIST/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MNIST/neural_network_initialisation/grid_search_results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessing/.ipynb_checkpoints/MB-DR-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessing/Artif-1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessing/Artif-2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessing/BreastCancer.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessing/LetterRecognition-actual-binary.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessing/LetterRecognition.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessing/MB-DR.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessing/MB-GE-ER.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessing/MNIST-actual-binary.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessing/MNIST.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessing/raw_data/.ipynb_checkpoints/MB-process-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data/preprocessing/raw_data/.ipynb_checkpoints/MB-process-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessing/raw_data/LetterRecognition.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessing/raw_data/MB-DR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessing/raw_data/MB-GE-ER.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessing/raw_data/MB-process.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessing/raw_data/MB.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessing/raw_data/MB_helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/preprocessing/raw_data/wdbc.csv" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kYPWrIhdH2sA2xN0RjAxybPdDN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14c827c4-4cd9-4371-8914-1cb3b5871227" name="Default Changelist" comment="" />
+      <created>1605874585983</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605874585983</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Problem with empty rule ranking rectified">
+      <created>1606408452826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606408452826</updated>
+    </task>
+    <task id="LOCAL-00002" summary="statistical analysis on rules added plus function for explanation of predictions">
+      <created>1606495542476</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606495542476</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Problem with empty rule ranking rectified" />
+    <MESSAGE value="statistical analysis on rules added plus function for explanation of predictions" />
+    <option name="LAST_COMMIT_MESSAGE" value="statistical analysis on rules added plus function for explanation of predictions" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="523" y="25" width="2249" height="1690" key="DiffContextDialog" timestamp="1606210132346">
+      <screen x="0" y="25" width="3360" height="1780" />
+    </state>
+    <state x="523" y="25" width="2249" height="1690" key="DiffContextDialog/0.25.3360.1780@0.25.3360.1780" timestamp="1606210132346" />
+    <state x="868" y="363" key="SettingsEditor" timestamp="1608200489018">
+      <screen x="0" y="25" width="3360" height="1780" />
+    </state>
+    <state x="868" y="363" key="SettingsEditor/0.25.3360.1780@0.25.3360.1780" timestamp="1608200489018" />
+    <state x="2027" y="617" key="Vcs.Push.Dialog.v2" timestamp="1606495551018">
+      <screen x="0" y="25" width="3360" height="1780" />
+    </state>
+    <state x="2027" y="617" key="Vcs.Push.Dialog.v2/0.25.3360.1780@0.25.3360.1780" timestamp="1606495551018" />
+    <state x="1082" y="347" width="670" height="676" key="search.everywhere.popup" timestamp="1608570748164">
+      <screen x="0" y="25" width="3360" height="1780" />
+    </state>
+    <state x="1082" y="347" width="670" height="676" key="search.everywhere.popup/0.25.3360.1780@0.25.3360.1780" timestamp="1608570748164" />
+  </component>
+</project>
