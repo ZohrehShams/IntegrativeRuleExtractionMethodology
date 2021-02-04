@@ -1,5 +1,5 @@
 # REM
-Source code for paper “REM: An Integrative Rule Extraction Methodology for Explainable Data Analysis in Healthcare”
+Source code for paper “REM: An Integrative Rule Extraction Methodology for Explainable Data Analysis in Healthcare”. The pre-print is available at: https://www.biorxiv.org/content/10.1101/2021.01.22.427799v1
 
 
 # Overview
