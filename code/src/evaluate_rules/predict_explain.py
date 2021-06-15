@@ -70,3 +70,9 @@ def print_neuron(neuron):
     else:
         return 'h_' + str(neuron.layer) + ',' + str(neuron.index)
 
+def print_ruleset(ruleset):
+    ruleset_str = '\n'
+    for rule in ruleset:
+        for clause in rule.premise:
+            ruleset_str  += "If " + print_clause(clause) + " Then " + str(rule.conclusion.name) + '\n'
+    return ruleset_str

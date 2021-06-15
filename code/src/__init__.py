@@ -4,7 +4,7 @@ from configurations import get_configuration
 from extract_rules.modified_deep_red_C5 import extract_rules as MOD_DeepRED_C5
 
 
-DATASET_INFO = get_configuration(dataset_name='MB-1004-GE-2Hist')
+DATASET_INFO = get_configuration(dataset_name='breast_cancer_uci')
 N_FOLDS = 5
 
 # Algorithm used for Rule Extraction
@@ -12,13 +12,18 @@ RuleExMode = namedtuple('RuleExMode', 'mode run')
 RULE_EXTRACTOR = RuleExMode(mode='MOD_DeepRED_C5', run=MOD_DeepRED_C5)
 
 
-BATCH_SIZE = 16
-EPOCHS = 50
-LAYER_1 = 128
+# Parameters for case study I and II
+# BATCH_SIZE = 16
+# EPOCHS = 50
+# LAYER_1 = 128
+# LAYER_2 = 16
+
+
+# Parameters for demo
+BATCH_SIZE = 32
+EPOCHS = 100
+LAYER_1 = 64
 LAYER_2 = 16
-
-
-
 
 # --------------------------------------------- File paths -----------------------------------------------------------
 # NB: FP/fp = file path, DP/dp = directory path

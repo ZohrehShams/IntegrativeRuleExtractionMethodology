@@ -75,7 +75,7 @@ def _parse_C5_rule_str(rule_str, rule_conclusion_map, prior_rule_confidence) -> 
 def C5(x: pd.DataFrame, y: pd.Series, rule_conclusion_map, prior_rule_confidence) -> Set[Rule]:
     y = robjects.vectors.FactorVector(y)
 
-    C5_model = C50.C5_0(x=x, y=y, rules=True, control=C50.C5_0Control(winnow=True, minCases=15))
+    C5_model = C50.C5_0(x=x, y=y, rules=True, control=C50.C5_0Control(winnow=True, minCases=5))
     # C5_model = C50.C5_0(x=x, y=y, rules=True, control=C50.C5_0Control(winnow=True))
 
 
