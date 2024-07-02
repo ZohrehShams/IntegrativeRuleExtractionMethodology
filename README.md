@@ -1,5 +1,5 @@
 # REM
-Source code for paper “REM: An Integrative Rule Extraction Methodology for Explainable Data Analysis in Healthcare”. The pre-print is available at: https://www.biorxiv.org/content/10.1101/2021.01.22.427799v2. 
+Source code for paper “REM: An Integrative Rule Extraction Methodology for Explainable Data Analysis in Healthcare”. The pre-print is available at: https://www.biorxiv.org/content/10.1101/2021.01.22.427799v2.
 
 
 # Overview
@@ -8,7 +8,7 @@ Deep learning models are receiving increasing attention in clinical decision-mak
 # Requirements
 REM requires python and R installation. Versions the code is tested on are python 3.7 and R 3.6.
 
-Python dependencies are listed in "code/requirements.txt". 
+Python dependencies are listed in "code/requirements.txt".
 
 The following packages need to be installed in R:
 - `C50`
@@ -26,11 +26,11 @@ The following packages need to be installed in R:
 - `stringi`
 
 # Demo
-A quick demostration of rule extraction from neural networks using Breast Cancer Wisconsin dataset is provided in demo.ipynb.
+A quick demonstration of rule extraction from neural networks using Breast Cancer Wisconsin dataset is provided in demo.ipynb.
 
 # Instruction for use
-For how to run the software on your data, see demo.ipynb. 
+For how to run the software on your data, see demo.ipynb.
 Reproduction instruction are provided in "code/reproduction_instruction.txt".
 
 # License
-This project is covered under the MIT License. 
+This project is covered under the MIT License.
