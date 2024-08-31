@@ -6,7 +6,7 @@ Source code for paper “REM: An Integrative Rule Extraction Methodology for Exp
 Deep learning models are receiving increasing attention in clinical decision-making, however the lack of explainability impedes their deployment in day-to-day clinical practice. We propose REM, an explainable methodology for extracting rules from deep neural networks and combining them with rules from non-deep learning models. This allows integrating machine learning and reasoning for investigating basic and applied biological research questions. We evaluate the utility of REM in two case studies for the predictive tasks of classifying histological and immunohistochemical breast cancer subtypes from genotype and phenotype data. We demonstrate that REM efficiently extracts accurate, comprehensible rulesets from deep neural networks that can be readily integrated with rulesets obtained from tree-based approaches. REM provides explanation facilities for predictions and enables the clinicians to validate and calibrate the extracted rulesets with their domain knowledge. With these functionalities, REM caters for a novel and direct human-in-the-loop approach in clinical decision-making.
 
 # Requirements
-REM requires python and R installation. Versions the code is tested on are python 3.7 and R 3.6.
+REM requires Python and R installation. Versions the code is tested on are Python 3.7 and R 3.6.
 
 Python dependencies are listed in "code/requirements.txt".
 
